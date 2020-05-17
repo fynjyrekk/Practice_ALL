@@ -1,0 +1,94 @@
+body {
+	font-family: 'opensans-regular';
+	font-size: 18px;
+	line-height: 26px;
+	background: #e6e6e6;
+}
+
+.wrapper {
+	min-height: 100%;
+	width: 100%;
+	min-width: 1200px;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+
+.table-block {display: table;width: 100%;height: 100%;}
+.table-cell {display: table-cell;vertical-align: middle;}
+
+.main {
+	background: #fff;
+	width: 1230px;
+	padding: 20px 30px 60px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 36px;
+	line-height: 40px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	font-family: 'opensans-bold';
+	color: #000;
+}
+
+h2 {
+	font-size: 24px;
+	line-height: 32px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	font-family: 'opensans-bold';
+	color: #000;
+}
+
+h3 {
+	font-size: 18px;
+	line-height: 24px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	font-family: 'opensans-bold';
+	color: #000;
+}
+h4 {
+	font-size: 17px;
+	line-height: 24px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	font-family: 'opensans-bold';
+	color: #000;
+}
+h5 {
+	font-size: 16px;
+	line-height: 22px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	font-family: 'opensans-bold';
+	color: #000;
+}
+h6 {
+	font-size: 14px;
+	line-height: 20px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	font-family: 'opensans-bold';
+	color: #000;
+}
+
+
+/*=============HEADER=============*/
+.header {
+	width: 100%;
+	min-height: 90px;
+}
+
+.logo {
+	display: block;
+	float: left;
+	margin: 15px 0; 
+	height: 75px;
+}
+.logo:hover {opacity: 0.8;}

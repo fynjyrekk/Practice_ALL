@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="assets/css/style.css">
+    <link rel= "stylesheet" href= "assets/css/layout.css" >
+<!--    <link rel="stylesheet" href="assets/css/paint.css">-->
+
+    <style>
+        #draw{
+            border: 1px solid red;
+        }
+        .small{
+            font-size: 12px;
+        }
+        .normal{
+            font-size: 18px;
+        }
+        .big{
+            font-size: 28px;
+        }
+    </style>
+</head>
+<body>
+<header class= "header" >
+    <img class="header__logo" src="assets/img/logo.png" alt="">
+</header>
+<div class= "container" >
+    <main class= "center column" >
+        <article>
+            <h1> Paint </h1>
+            <canvas id="draw" width="490" height="420"></canvas>
+            <div class="btn-block">
+                <button id="btn-clear" class="btn"><i class="fa fa-trash"></i></button>
+                <input id="color" type="color" value="#df4b26">
+                <button type="button" class="btn sizeRadius" value="1"><i class="fa fa-circle small"></i></button>
+                <button type="button" class="btn sizeRadius" value="5"><i class="fa fa-circle normal"></i></button>
+                <button type="button" class="btn sizeRadius" value="10"><i class="fa fa-circle big"></i></button>
+            </div>
+
+        </article>
+    </main>
+    <nav class= "left column" >
+		<h3> Left heading </h3>
+        <ul>
+            <li><a href= "about.html" > About </a></li>
+            <li><a href= "media.html" > Media </a></li>
+            <li><a href= "contact.html" > Contact </a></li>
+            <li><a href= "slider.html" > Slider </a></li>
+            <li><a href= "table.html" > Table </a></li>
+            <li><a href= "paint.html" > Paint </a></li>
+        </ul>
+    </nav>
+    <div class= "right column" >
+        <h3> Right heading </h3>
+        <p></p>
+    </div>
+</div>
+<footer class= "footer" >
+    <img class="header__logo" src="assets/img/google.png" alt="">
+    <p> Footer... </p>
+</footer>
+<script src="assets/js/paint.js"></script>
+</body>
+</html>

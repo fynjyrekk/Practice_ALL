@@ -1,0 +1,160 @@
+<!DOCTYPE html >
+<html>
+<head>
+    <meta http-equiv= "Content-Type" content= "text/html; charset=UTF-8" >
+    <title> 3 Column Layout </title>
+    <link rel= "stylesheet" href= "assets/css/layout.css" >
+	<link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        table{
+            border: sandybrown;
+            border-collapse: collapse;
+        }
+        th{
+            background-color: #555;
+            color: #fff;
+        }
+    </style>
+
+</head>
+<body>
+<header class= "header" >
+    <img class="header__logo" src="assets/img/logo.png" alt="">
+</header>
+<div class= "container" >
+    <main class= "center column" >
+        <article>
+            <h1> Table </h1>
+            <p>
+                <table border="1" cellpadding="10" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Firm</th>
+                            <th>Org</th>
+                            <th>Lob</th>
+                            <th>Sub Lob</th>
+                            <th>Business Plans</th>
+                            <th>Business Components</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td align="center" rowspan="11">JPMS</td>
+                            <td align="center" rowspan="5">CST</td>
+                            <td align="center" rowspan="3">CT</td>
+                            <td align="center" >ADS</td>
+                            <td align="center">1</td>
+                            <td align="center">10</td>
+                        </tr>
+                        <tr>
+<!--                            <td></td>-->
+<!--                            <td></td>-->
+<!--                            <td></td>-->
+                            <td align="center">BTO</td>
+                            <td align="center">2</td>
+                            <td align="center">15</td>
+                        </tr>
+                        <tr>
+<!--                            <td></td>-->
+<!--                            <td></td>-->
+<!--                            <td></td>-->
+                            <td align="center">CSI</td>
+                            <td align="center">3</td>
+                            <td align="center">6</td>
+                        </tr>
+                        <tr>
+<!--                            <td></td>-->
+<!--                            <td></td>-->
+                            <td align="center" rowspan="2">VCT</td>
+                            <td align="center">ADS</td>
+                            <td align="center">4</td>
+                            <td align="center">10</td>
+                        </tr>
+                        <tr>
+<!--                            <td></td>-->
+<!--                            <td></td>-->
+<!--                            <td></td>-->
+                            <td align="center">BTO</td>
+                            <td align="center">5</td>
+                            <td align="center">15</td>
+                        </tr>
+                        <tr>
+<!--                            <td></td>-->
+<!--                            <td></td>-->
+<!--                            <td></td>-->
+                            <td align="right" colspan="3">Sub Total</td>
+                            <td align="center">6</td>
+                            <td align="center">15</td>
+                        </tr>
+                        <tr>
+<!--                            <td></td>-->
+                            <td align="center" rowspan="4">CST</td>
+                            <td align="center" rowspan="3">CT</td>
+                            <td align="center">ADS</td>
+                            <td align="center">7</td>
+                            <td align="center">10</td>
+                        </tr>
+                        <tr>
+<!--                            <td></td>-->
+<!--                            <td></td>-->
+<!--                            <td></td>-->
+                            <td align="center">BTO</td>
+                            <td align="center">8</td>
+                            <td align="center">15</td>
+                        </tr>
+                        <tr>
+<!--                            <td></td>-->
+<!--                            <td></td>-->
+<!--                            <td></td>-->
+                            <td align="center">CSI</td>
+                            <td align="center">9</td>
+                            <td align="center">6</td>
+                        </tr>
+                        <tr>
+<!--                            <td></td>-->
+<!--                            <td></td>-->
+                            <td align="center">VCT</td>
+                            <td align="center">ADS</td>
+                            <td align="center">10</td>
+                            <td align="center">10</td>
+                        </tr>
+                        <tr>
+<!--                            <td></td>-->
+<!--                            <td></td>-->
+<!--                            <td></td>-->
+                            <td align="right" colspan="3">Sub Total</td>
+                            <td align="center">11</td>
+                            <td align="center">15</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+            </p>
+        </article>
+    </main>
+    <nav class= "left column" >
+        <h3> Left heading </h3>
+        <ul>
+            <li><a href= "about.html" > About </a></li>
+            <li><a href= "media.html" > Media </a></li>
+            <li><a href= "contact.html" > Contact </a></li>
+            <li><a href= "slider.html" > Slider </a></li>
+            <li><a href= "table.html" > Table </a></li>
+        </ul>
+		<h3> Left heading </h3>
+        <ul>
+            <li><a href= "#" > Link 1 </a></li>
+            <li><a href= "#" > Link 2 </a></li>
+        </ul>
+    </nav>
+    <div class= "right column" >
+        <h3> Right heading </h3>
+        <p></p>
+    </div>
+</div>
+<div class= "footer-wrapper" >
+    <footer class= "footer" ><p> Footer... </p></footer>
+</div>
+</body>
+</html>
